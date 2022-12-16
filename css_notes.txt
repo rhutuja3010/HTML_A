@@ -1,0 +1,37 @@
+CSS: Cascading Style Sheets
+1. It is used to decorate the html pages.
+There are 3 types of CSS
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+
+
+Inline CSS: In this we write the css style along with html tag(element)
+We write the Inline css using style attribute of html tags.
+
+
+
+<div>: It is used to define the perticular division(part) of page
+<div> is block level element. Means the next items appears on next line.
+
+
+
+Internal CSS:
+In this type of css we defiene the styles inside <head> using
+    <style> tag.
+The benefit is separation between html and css
+
+
+
+Id selector: Using # we create the id selector, and we use this as id to
+    html element.
+    When we want to apply a style to only 1 html element, we use id selector.
+    When we want to apply same style to different html element, we need to
+    repeat the code, because we can not give same id to multiple html elements.
+
+
+
+   The solution for above problem is class selector
+2. Class selector:
+    This is created when we want to apply same style to multiple html elements.
